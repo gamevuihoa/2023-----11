@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameOverController">
+  <children>
+    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="106.0" text="Game Over..." textAlignment="CENTER" />
+    <Button onAction="#exit" prefHeight="25.0" prefWidth="107.0" text="Exit the game" textAlignment="CENTER" />
+  </children>
+</VBox>
